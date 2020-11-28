@@ -1,0 +1,125 @@
+
+<!DO<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> SLide Show</title>
+    <link rel="stylesheet" href="slide_show.css">
+</head>
+<body>
+    <div class="mobile">
+        <div class="bini"> <a href="index.html"><img src="images/logo.png" class="logo"></a></div>
+    <header>
+       
+        
+        <ul>
+        <li><a href="index.html">Home</a></li>
+         <li><a href="product.html">Menu</a></li>
+         <li><a href="#">What's New</a></li>
+         <li><a href="#">Contact Us</a></li>
+         <li><a href="#">Search Bar</a></li>
+         <li><a href="login.html">Sign Up</a></li>
+         <li><a href="bms.html">BMS</a></li>
+         <span id="clock"></span> <!-- We will insert the time into this element. -->
+
+        
+        </ul>
+        
+        </header>
+
+
+        
+   
+        
+
+        
+        <h1>Meal Made Easy</h1>
+        
+        <ul id="image_rollovers">
+             
+         <li><img src="images/lov.jpg" alt="" id="images/yogurt.jpg" ></li>
+        </ul>
+            <div class="how"> <h3>How to prepare</h3> 
+               <p> Mix the buckwheat flour, salt and baking powder in a bowl.<br>
+                Add your Alpro Plain with coconut.<br>
+                Combine the wet and dry mixture and blend.<br>
+                Heat up some coconut on a medium heat, add 3tbsp to the pan.<br>
+                Flip over and cook for another 2 minutes.<br>
+                   Serve topped with Alpro plain with coconut and promegranate seed<br></p>
+                <h3>Ingredients</h3>
+                <p>200ml Aplro plain with Coconut<br>
+                250g buckwheat flour<br>
+                A pinch salt<br>
+                pomegrante seeds and chia seeds</p>
+        
+                
+                </div>
+            
+                  <ul id="image_rollovers">
+                      <li><img src="images/van.jpg" alt="" id="images/hazelnut.jpg" class="move"></li></ul>
+             <div class="how"> <h3>How to prepare</h3> 
+               <p> Mix the buckwheat flour, salt and baking powder in a bowl.<br>
+                Add your Alpro Plain with coconut.<br>
+                Combine the wet and dry mixture and blend.<br>
+                Heat up some coconut on a medium heat, add 3tbsp to the pan.<br>
+                Flip over and cook for another 2 minutes.<br>
+                   Serve topped with Alpro plain with coconut and promegranate seed<br></p>
+                <h3>Ingredients</h3>
+                <p>200ml Aplro plain with Coconut<br>
+                250g buckwheat flour<br>
+                1 large ripe banana<br>
+                A pinch salt<br>
+                pomegrante seeds and chia seeds</p>
+                
+                
+                </div>
+                        
+                    <ul id="image_rollovers">
+                        <li><img src="images/grap.jpg" alt="" id="images/oat.jpeg"></li></ul>
+  <div class="how"> <h3>How to prepare</h3> 
+               <p> Mix the buckwheat flour, salt and baking powder in a bowl.<br>
+                Add your Alpro Plain with coconut.<br>
+                Combine the wet and dry mixture and blend.<br>
+                Heat up some coconut on a medium heat, add 3tbsp to the pan.<br>
+                Flip over and cook for another 2 minutes.<br>
+                   Serve topped with Alpro plain with coconut and promegranate seed<br></p>
+                <h3>Ingredients</h3>
+                <p>200ml Aplro plain with Coconut<br>
+                250g buckwheat flour<br>
+                1 large ripe banana<br>
+                A pinch salt<br>
+                pomegrante seeds and chia seeds</p>
+                
+                
+                </div>                        
+           
+    
+            
+            
+            
+         
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="rollover.js"></script>
+   
+        <footer>
+        K00244576@student.lit.ie &copy
+    
+    </footer> 
+    </div>
+    <script>
+// Define a function to display the current time
+function displayTime() {
+    let clock = document.querySelector("#clock"); // Get element with id="clock"
+    let now = new Date();                         // Get current time
+    clock.textContent = now.toLocaleTimeString(); // Display time in the clock
+}
+displayTime()                    // Display the time right away
+setInterval(displayTime, 1000);  // And then update it every second. 
+
+</script>
+</body>
+</html>
+ 
+
+

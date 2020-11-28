@@ -1,0 +1,52 @@
+// FINAL JS CODE
+const visToggle = document.querySelector('.eyeIcon');
+       
+        const input = document.querySelector('#pwdWrap input');
+
+        var password = true; 
+        
+        visToggle.addEventListener('click', function(){
+            if (password) { 
+               input.setAttribute('type','text'); 
+                visToggle.classList.remove('fa-eye'); 
+                visToggle.classList.add('fa-eye-slash');
+            } else { 
+                input.setAttribute('type','password');
+                visToggle.classList.remove('fa-eye-slash');
+                visToggle.classList.add('fa-eye'); 
+            }
+            password = !password; 
+        });
+
+
+
+/* CSS CODE */   
+
+/*  --- password toggle  --- */
+div#pwdWrap {
+    display: flex; 
+    align-items: center; 
+    border: solid 1px #9b9b9b; 
+    background-color: #fff; 
+    border-radius: 6px;
+}
+
+form .fa-eye {
+    margin: 0 6px; 
+    cursor: pointer;
+    color: #888; 
+}
+
+form .fa-eye-slash {
+    margin: 0 6px; 
+    cursor: pointer;
+    color: #888; 
+    font-size: .95em; 
+}
+
+input#password {
+    margin-bottom: 0; 
+    border: none; 
+}
+/* end password rules */
+

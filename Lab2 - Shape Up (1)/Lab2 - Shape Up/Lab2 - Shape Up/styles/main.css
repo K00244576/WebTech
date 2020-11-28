@@ -1,0 +1,103 @@
+.grid-container{ display:grid;
+		                     grid-template-columns: 25% 50% 25%;
+							 margin: auto; 
+							 }
+
+
+img{float: left;}
+
+h1{
+   
+    font-size: 40px; 
+    font-style: italic;
+    color: steelblue;
+    text-shadow: 2px 2px steelblue;
+    }
+
+
+.active{background-color: black;}
+
+.nav{grid-column: 1/4;
+    font-size: 20px;
+
+    background-color: steelblue;
+    color: white;
+}
+
+.nav a{text-decoration: none;
+color: white;
+padding: 12px 16px;}
+
+.dropbtn:hover, .dropbtn2:hover, .nav a:hover{background-color: lightsteelblue;}
+
+.dropbtn, .dropbtn2{
+
+padding: 12px 16px;
+font-size: 20px;
+border: none;
+background-color: steelblue;}
+
+.dropdown, .dropdown2{position: relative;
+display: inline-block;}
+
+.dropdown-content, .dropdown-content2 {
+    
+    display: none;
+    position: absolute;
+    background-color: steelblue;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a, .dropdown-content2 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}   
+
+
+
+body{margin: auto;
+    width: 1024px;
+    font-family: sans-serif; 
+    border: solid 4px steelblue;
+    box-shadow: 2px 5px 5px 10px black;
+}
+
+
+
+h2{color: maroon; font-size: 20px;}h5{font-size: 20px; }
+
+
+
+h4{font-size: 22px;}
+
+section a {color: maroon;}
+
+section a:hover{color: steelblue;}
+
+aside a{font-weight: bold; color: steelblue;}
+
+aside a:hover{color: maroon;}
+
+
+li{margin: 1em; font-size: 15px; font-weight: bold;}
+
+header{grid-column: 1/4; border: solid 1px steelblue;
+background-image: linear-gradient(white, lightsteelblue);}
+
+aside, gotit, middle {padding: 15px;}
+
+footer{grid-column: 1/4; font-size: 12px; text-align: center; background-color: steelblue; color: white; clear: both;}
+
+.move{margin-top: 29px;}
+
+li a{text-decoration: none}
+
+.dropdown-content a:hover, .dropdown-content2 a:hover{background-color: lightsteelblue;}
+.dropdown:hover .dropdown-content, .dropdown2:hover .dropdown-content2 {display: block;}
+.dropdown:hover .dropbtn .dropdown2:hover .dropbtn2{background-color: steelblue;}

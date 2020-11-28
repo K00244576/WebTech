@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title> SLide Show</title>
+    <link rel="stylesheet" href="slide_show.css">
+</head>
+<body>
+    <div class="mobile">
+        <div class="bini"> <a href="index.html"><img src="images/logo.png" class="logo"></a></div>
+    <header>
+       
+        
+        <ul>
+        <li><a href="index.html">Home</a></li>
+         <li><a href="product.html">Menu</a></li>
+         <li><a href="#">What's New</a></li>
+         <li><a href="#">Contact Us</a></li>
+         <li><a href="#">Search Bar</a></li>
+         <li><a href="login.html">Sign Up</a></li>
+         <li><a href="bms.html">BMS</a></li>
+         <span id="clock"></span> <!-- We will insert the time into this element. -->
+
+        
+        </ul>
+        
+        </header>
+        
+    <div class="textBox">
+        <h2>It More than Food <br> Healthy Life<span>  Healthy Living </span> </h2>
+        <p>All you need about balancing your Meal and Having the right Nutrient for your Body</p>
+        <a href="product.html">See More Food Nutrient</a>
+        </div>
+         <div class="imgBox">
+               <ul id="image_list">
+            <li><a href="images/milk.jpg" title="Catch and Release">
+                </a></li>
+                
+                <li><a href="images/soyas.jpg" title="Beauty">
+               </a></li>
+            
+                
+        </ul>
+    
+        <p><img id="main_image" src="images/almono.jpg" style="max-width:100%;height:auto;" class="food"> </p>
+    
+
+        </div>
+    
+   
+    
+    
+    <div class="txt">
+    <img src="images/grap.jpg" id="flo" alt="">
+    
+    <p>Buckwheat Banana Pancakes</p>
+    
+    </div>
+    
+        <div class="tt">
+
+        <img src="images/gras.jpg" id="flo" alt="">
+    
+    <p>Oat Pancakes</p>
+    </div>
+ 
+        <div class="txts">
+
+     <img src="images/lov.jpg" id="flo" alt="">
+    
+    <p>Oat Cappuccino</p>
+    </div>
+    
+            <div class="tts">
+
+    
+         <img src="images/van.jpg" id="flo" alt="">
+    
+    <p>Oat Meal with Apple</p>
+    </div>
+
+    <footer>
+        K00244576@student.lit.ie &copy
+    </footer>
+    </div>
+    <script>
+
+
+// Define a function to display the current time
+function displayTime() {
+    let clock = document.querySelector("#clock"); // Get element with id="clock"
+    let now = new Date();                         // Get current time
+    clock.textContent = now.toLocaleTimeString(); // Display time in the clock
+}
+displayTime()                    // Display the time right away
+setInterval(displayTime, 1000);  // And then update it every second. 
+
+</script>
+        <script src="slide_show.js"></script> 
+</body>
+</html>
+ 
